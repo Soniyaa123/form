@@ -1,0 +1,186 @@
+h2{
+    margin-top: 60px;
+    font-family: poppins;
+    text-align: center;
+}
+
+h5{
+    padding-top: -20px;
+    font-family: poppins;
+    text-align: center;
+    font-weight: bold;
+    line-height: 0.25;
+}
+
+.highlighted-text{
+    color: rgb(227, 4, 227);
+}
+
+.centered-container {
+    text-align: center; /* Center the button horizontally */
+}
+
+.main{
+    justify-content: center;
+}
+
+.buttontext{
+    float: right;
+    padding-right: 40px;
+    
+}
+
+
+
+
+.google{
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    width: 280px;
+    align-items: center;
+    background-color: rgb(239, 239, 241);
+
+    
+
+}
+
+.google:hover{
+    color: rgb(4, 4, 4);
+    cursor: pointer;
+    background-color: rgb(229, 241, 252);
+
+}
+
+
+
+img {
+    width: 20px;
+    height: 20px;
+    float: left;
+    padding-top: 17px;
+    padding-left: 40px;
+  }
+
+
+
+.buttontext{
+    font-size: 15px;
+    font-weight: normal;
+    font-family: poppins;
+
+}
+
+.horizontal-lines {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 19%;
+    margin-top: 15px;
+}
+
+.left-line, .right-line {
+    border: 0;
+    border-top: 1px solid rgb(84, 84, 84);
+    flex: 1;
+}
+
+.text-between-lines {
+    padding: 0 20px; /* Adjust the spacing as needed */
+    font-family: poppins;
+}
+
+
+.email{
+    font-family: poppins;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column; /* Stack the label and input vertically */
+    align-items: left; /* Center the content vertically */
+    padding-right: 100px;
+
+}
+
+.box{
+    width: 300px;
+    border-radius: 5px;
+    border-color: rgb(155, 154, 154);
+    border-width: 0.5px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-top: 12px;
+    padding-right: 10px;
+    margin-top: -5px;
+}
+
+.input{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-left: 105px;
+}
+
+
+.password{
+    font-family: poppins;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column; /* Stack the label and input vertically */
+    align-items: left; /* Center the content vertically */
+    padding-right: 100px;
+    margin-top: 10px;
+
+}
+
+.checkbox{
+    display: flex;
+    margin: auto;
+    font-family: poppins;
+    font-size: 14px;
+    justify-content: center;
+    margin-top: 10px;
+    padding-right: 60px;
+}
+
+
+.line{
+    padding-left: 7px;
+}
+
+.terms{
+    color: blueviolet;
+}
+
+
+.secondary {
+    font-family: poppins;
+    font-size: 13px;
+    color: white;
+}
+
+
+
+.purple {
+    border: none;
+    border-radius: 5px;
+    width: 330px;
+    background-color: blueviolet;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-top: 3px; /* Decrease this value to reduce the top padding */
+}
+
+.sign {
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 595px;
+}
+
+.purple:hover{
+    background-color: rgb(112, 2, 215);
+    cursor: pointer;
+}
